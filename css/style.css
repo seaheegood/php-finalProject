@@ -1,0 +1,113 @@
+h1,h2,h3,h4,h5,h6{
+  font-family: "Apple Braille";
+}
+p,a,li,input,th,td{
+  font-size: 1.2em;
+  font-family: "Apple LiSung";
+}
+.row{
+  margin: 0px;
+}
+
+header {
+  background-color: #2f5e05;
+}
+header > nav > div > a{
+  font-family: "Al Bayan";
+}
+footer{
+  padding: 5%;
+  background-color: #2f5e05;
+  color: #fff;
+}
+
+.masthead{
+  height: 75vh;
+  /* add a background image */
+  background-image: url('../img/dan-gold-N7RiDzfF2iw-unsplash.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.form-row div:nth-child(1){
+  background-color: #95e08f;
+  color: black;
+}
+
+.form-row div:nth-child(2){
+  background-color: #c9da8b;
+  color: black;
+}
+
+.about {
+  padding: 10rem;
+  color: black;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.masthead div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  padding: 15px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.masthead div h1{
+  color: #fff;
+  font-size: 3em;
+  text-align: center;
+}
+.form-row div{
+  padding: 5%;
+}
+.form-row div form{
+  width: 90%;
+  height: auto;
+  margin: auto;
+}
+
+.signin-masthead{
+  height: 50vh;
+}
+.signin-row{
+  padding: 5%;
+}
+.person-masthead{
+  width: 100%;
+  height: 50vh;
+  /* add background image */
+}
+.person-masthead div{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.person-masthead div h1{
+  color: #fff;
+  font-size: 2.5em;
+}
+.person-row{
+  padding: 5% 10%;
+}
+.success-row,
+.signin-masthead,
+.add-image-page{
+  background-image: url("../img/dino-reichmuth-A5rCN8626Ck-unsplash.jpg");
+  background-size: cover;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.success-row div,
+.signin-masthead div,
+.add-image-page div{
+  padding: 5%;
+  background-color: rgba(0,0,0,.7);
+  border-radius: 5px;
+  color: #fff;
+}
+.success-back-row{padding: 5%;}
